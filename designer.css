@@ -118,8 +118,8 @@ nav a:hover {
   z-index: 0;
   width: 100%;
   display: flex;
-  padding-left: 20%;
-  padding-right: 20%;
+  padding-left: 25%;
+  padding-right: 25%;
   /* justify-content: space-around; */
   justify-content: space-evenly;
   flex-wrap: wrap;
