@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
 *,
 *:before,
 *:after {
@@ -30,16 +32,12 @@ li,
   text-decoration: none;
 }
 
-/* .inner {
-  width: 800px;
-  position: relative;
-  margin: 0 auto;
-} */
+
 
 header {
-  /* position: fixed; */
+
   width: 100%;
-  /* padding-top: 10px; */
+
   height: 130px;
 
   background: #2d2d2d;
@@ -48,7 +46,7 @@ header {
 }
 
 body.header-fixed header {
-  /* position: fixed; */
+
   top: 0;
   right: 0;
   padding-top: 0;
@@ -115,7 +113,7 @@ nav a:hover {
   font-family: 'lato';
   font-weight: 500;
   margin-left: 750px;
-  margin-top: -730px;
+  margin-top: -650px;
   margin-right: 40px;
 }
 
@@ -140,41 +138,41 @@ img:hover {
   font-weight: 500;
   margin-left: 650px;
   margin-right: 40px;
-  margin-top: -480px;
+  margin-top: -400px;
 }
 
 hr {
   margin-left: 2%;
   margin-right: 2%;
-  margin-top: 480px;
+  margin-top: 20px;
   color: black;
 }
 
 .hr1 {
   margin-left: 2%;
   margin-right: 2%;
-  margin-top: 500px;
+  margin-top: 100px;
   color: black;
 }
 
 .hr2 {
   margin-left: 2%;
   margin-right: 2%;
-  margin-top: 400px;
+  margin-top: 100px;
   color: black;
 }
 
 .hr3 {
   margin-left: 2%;
   margin-right: 2%;
-  margin-top: 450px;
+  margin-top: 100px;
   color: black;
 }
 
 .hr4 {
   margin-left: 2%;
   margin-right: 2%;
-  margin-top: 550px;
+  margin-top: 100px;
   color: black;
 }
 
@@ -182,8 +180,8 @@ hr {
 h1 {
   font-family: 'lato';
   font-weight: 300;
-  margin-top: 10px;
-  margin-bottom: 1px;
+  margin-top: 30px;
+  margin-bottom: 30px;
   margin-left: 40px;
   font-size: 50px;
 }
@@ -191,7 +189,7 @@ h1 {
 h2 {
   margin-top: 30px;
   margin-left: 40px;
-  margin-bottom: 5px;
+  margin-bottom: 30px;
   font-size: 45px;
   font-family: lato;
   font-weight: 300;
@@ -212,7 +210,7 @@ h2 {
   font-weight: 500;
   margin-left: 500px;
   margin-right: 40px;
-  margin-top: -520px;
+  margin-top: -450px;
 }
 
 
@@ -232,7 +230,7 @@ h2 {
   font-weight: 500;
   margin-left: 500px;
   margin-right: 40px;
-  margin-top: -570px;
+  margin-top: -500px;
 }
 
 .banksy img {
@@ -250,11 +248,11 @@ h2 {
   font-weight: 500;
   margin-left: 600px;
   margin-right: 40px;
-  margin-top: -370px;
+  margin-top: -310px;
 }
 
 .footer {
-  margin-top: 350px;
+  margin-top: 150px;
   padding-bottom: 10px;
   width: 100%;
   font-size: 15px;
@@ -275,4 +273,11 @@ h2 {
   color: whitesmoke;
   text-decoration: none;
   margin-left: 25px;
+}
+
+.flex-container>div {
+  display: inline-flex;
+  justify-content: center;
+  margin-top: -20px;
+  margin-bottom: -20px;
 }

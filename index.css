@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
 *,
 *:before,
 *:after {
@@ -79,6 +82,7 @@ nav li {
 }
 
 nav a {
+
   display: inline-flex;
   /* color: #fff; */
   text-decoration: none;
@@ -142,6 +146,13 @@ a.active img {
   transition: 0.7s all;
   margin-top: -10%;
   display: inline-flex;
+}
+
+.DDD {
+  display: flex;
+  align-items: center;
+
+  justify-content: center;
 }
 
 /* body.header-fixed .logo {
