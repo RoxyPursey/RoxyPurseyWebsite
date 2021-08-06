@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2480" height="2480" viewBox="0 0 2480 2480">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        stroke: #24123a;
+        stroke-width: 1px;
+      }
+
+      .cls-2 {
+        font-size: 150px;
+        font-family: Gilmer;
+        font-weight: 300;
+      }
+    </style>
+  </defs>
+  <circle class="cls-1" cx="1239.5" cy="1216.5" r="1186"/>
+  <text id="_" data-name="@" class="cls-2" transform="translate(362.43 1683.03) scale(11.939)">@</text>
+</svg>

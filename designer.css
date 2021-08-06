@@ -1,0 +1,201 @@
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 2000px;
+  font-size: 18px;
+  font-family: lato;
+  font-weight: 100;
+  line-height: 1.5;
+  background-color: whitesmoke;
+}
+
+ul,
+li,
+/* h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a, */
+.logo {
+  font-family: 'Lato', 'Verdana', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.anchor {
+  text-decoration: none;
+}
+
+/* .inner {
+  width: 800px;
+  position: relative;
+  margin: 0 auto;
+} */
+
+header {
+  /* position: fixed; */
+  width: 100%;
+  /* padding-top: 10px; */
+  height: 6%;
+  background: #2d2d2d;
+  transition: 0.7s all;
+  z-index: 100;
+}
+
+body.header-fixed header {
+  /* position: fixed; */
+  top: 0;
+  right: 0;
+  padding-top: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+li {
+  list-style: none;
+}
+
+nav {
+  overflow: hidden;
+}
+
+nav ul {
+  float: right;
+  margin-right: 70px;
+}
+
+nav li {
+  display: inline;
+  float: left;
+}
+
+nav a {
+  display: inline-block;
+
+  color: rgb(126, 125, 125);
+  text-decoration: none;
+  padding: 45px 40px 40px 0px;
+  transition: 0.3s all;
+  font-size: 20px;
+  letter-spacing: 0.1em;
+  text-shadow: -1px -1px 1px #111, 2px 2px 1px #363636;
+}
+
+nav a:hover {
+  color: #fff;
+}
+
+.logo {
+  margin-left: 40px;
+  float: left;
+  transition: 0.7s all;
+}
+
+.logo img {
+  display: block;
+  max-width: 32%;
+  max-height: 32%;
+}
+
+.cards-list {
+  z-index: 0;
+  width: 100%;
+  display: flex;
+  padding-left: 20%;
+  padding-right: 20%;
+  justify-content: space-around;
+  /* justify-content: space-evenly; */
+  flex-wrap: wrap;
+}
+
+.card {
+  margin: 20px auto;
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+  box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.25),
+    -5px -5px 30px 7px rgba(0, 0, 0, 0.22);
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.card .card_image {
+  width: inherit;
+  height: inherit;
+  border-radius: 40px;
+}
+
+.card .card_image img {
+  width: inherit;
+  height: inherit;
+  border-radius: 100px;
+  object-fit: cover;
+}
+
+.card .card_title {
+  text-align: center;
+  border-radius: 0px 0px 40px 40px;
+  font-family: 'lato';
+  font-weight: 300;
+  font-size: 18px;
+  margin-top: -80px;
+  height: 20px;
+  line-height: 25px;
+  text-decoration: none;
+}
+
+.card:hover {
+  transform: scale(0.9, 0.9);
+  box-shadow: 5px 5px 30px 15px rgba(0, 0, 0, 0.25),
+    -5px -5px 30px 15px rgba(0, 0, 0, 0.22);
+}
+
+.title-white {
+  color: white;
+  text-decoration: none;
+}
+
+h4 {
+  font-family: lato;
+  font-weight: 300;
+  color: white;
+  text-decoration: none;
+}
+
+@media all and (max-width: 500px) {
+  .card-list {
+    /* On small screens, we are no longer using row direction but column */
+    flex-direction: column;
+  }
+}
+
+.card {
+  margin: 30px auto;
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  background-color: black;
+  /* background-image: url('https://i.redd.it/b3esnz5ra34y.jpg'); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.25),
+    -5px -5px 30px 7px rgba(0, 0, 0, 0.22);
+  transition: 0.4s;
+}

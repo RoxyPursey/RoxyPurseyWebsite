@@ -1,0 +1,172 @@
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 2000px;
+  font-size: 18px;
+  font-family: lato;
+  font-weight: 100;
+  line-height: 1.5;
+  background-color: whitesmoke;
+}
+
+ul,
+li,
+/* h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a, */
+.logo {
+  font-family: 'Lato', 'Verdana', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+/* .inner {
+  width: 800px;
+  position: relative;
+  margin: 0 auto;
+} */
+
+header {
+  /* position: fixed; */
+  width: 100%;
+  /* padding-top: 10px; */
+  height: 6%;
+  background: #2d2d2d;
+  transition: 0.7s all;
+  z-index: 100;
+}
+
+body.header-fixed header {
+  /* position: fixed; */
+  top: 0;
+  right: 0;
+  padding-top: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+li {
+  list-style: none;
+}
+
+nav {
+  overflow: hidden;
+}
+
+nav ul {
+  float: right;
+  margin-right: 70px;
+}
+
+nav li {
+  display: inline;
+  float: left;
+}
+
+nav a {
+  display: inline-block;
+  /* color: #fff; */
+  text-decoration: none;
+  padding: 45px 40px 40px 0px;
+  transition: 0.3s all;
+  font-size: 20px;
+  color: rgb(126, 125, 125);
+  letter-spacing: 0.1em;
+  text-shadow: -1px -1px 1px #111, 2px 2px 1px #363636;
+}
+
+nav a:hover {
+  color: whitesmoke;
+}
+
+.logo {
+  margin-left: 40px;
+  float: left;
+  transition: 0.7s all;
+}
+
+.logo img {
+  display: block;
+  max-width: 32%;
+  max-height: 32%;
+}
+
+.scar img {
+  width: 60%;
+  height: 20%;
+  margin-top: 20px;
+  margin-left: 40px;
+  box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.25),
+    -2px -2px 5px 5px rgba(0, 0, 0, 0.22);
+}
+
+p {
+  font-family: lato;
+  font-weight: 500;
+  margin-left: 820px;
+  margin-top: -400px;
+}
+
+.text2 {
+  font-family: lato;
+  font-weight: 500;
+  margin-left: 820px;
+  margin-top: -650px;
+}
+
+
+h1 {
+  font-family: lato;
+  font-weight: 300;
+  margin-top: 10px;
+  margin-bottom: 1px;
+  margin-left: 40px;
+  font-size: 50px;
+}
+
+.chile img {
+  width: 60%;
+  height: 20%;
+  margin-left: 40px;
+  margin-bottom: 400px;
+  box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.25),
+    -2px -2px 5px 5px rgba(0, 0, 0, 0.22);
+}
+
+h2 {
+  margin-left: 40px;
+  font-size: 45px;
+  font-family: lato;
+  font-weight: 300;
+}
+
+.dad img {
+  width: 600px;
+  height: 600px;
+  margin-left: 40px;
+  box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.25),
+    -2px -2px 5px 5px rgba(0, 0, 0, 0.22);
+}
+
+img:hover {
+  transform: scale(1.2, 1.2);
+  transition: 0.5s all;
+  justify-content: center;
+}

@@ -1,0 +1,222 @@
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 2000px;
+  font-size: 18px;
+  line-height: 2.5;
+  background-color: whitesmoke;
+}
+
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+.logo {
+  font-family: 'Lato', 'Verdana', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+/* .inner {
+  width: 800px;
+  position: relative;
+  margin: 0 auto;
+} */
+
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 2000px;
+  font-size: 18px;
+  font-family: lato;
+  font-weight: 100;
+  line-height: 1.5;
+  background-color: whitesmoke;
+}
+
+ul,
+li,
+/* h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a, */
+.logo {
+  font-family: 'Lato', 'Verdana', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+/* .inner {
+  width: 800px;
+  position: relative;
+  margin: 0 auto;
+} */
+
+header {
+  /* position: fixed; */
+  width: 100%;
+  /* padding-top: 10px; */
+  height: 6%;
+  background: #2d2d2d;
+  transition: 0.7s all;
+  z-index: 100;
+}
+
+body.header-fixed header {
+  /* position: fixed; */
+  top: 0;
+  right: 0;
+  padding-top: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+li {
+  list-style: none;
+}
+
+nav {
+  overflow: hidden;
+}
+
+nav ul {
+  float: right;
+  margin-right: 70px;
+}
+
+nav li {
+  display: inline;
+  float: left;
+}
+
+nav a {
+  display: inline-block;
+
+  color: rgb(126, 125, 125);
+  text-decoration: none;
+  padding: 45px 40px 40px 0px;
+  transition: 0.3s all;
+  font-size: 20px;
+  letter-spacing: 0.1em;
+  text-shadow: -1px -1px 1px #111, 2px 2px 1px #363636;
+}
+
+nav a:hover {
+  color: #fff;
+}
+
+.logo {
+  margin-left: 40px;
+  float: left;
+  transition: 0.7s all;
+}
+
+.logo img {
+  display: block;
+  max-width: 32%;
+  max-height: 32%;
+}
+
+
+p {
+  margin-top: 10px;
+  margin-left: 40px;
+  margin-right: 500px;
+  margin-bottom: 40px;
+}
+
+.row {
+  display: -ms-flexbox;
+  /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap;
+  /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+  margin: 40px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%;
+  /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+h1 {
+  margin-left: 40px;
+  margin-top: 20px;
+}
+
+.vid {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  margin-left: 850px;
+  margin-top: -600px;
+  flex: 25%;
+
+}
+
+.vid1 {
+  padding-bottom: 40px;
+}
