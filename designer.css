@@ -21,14 +21,7 @@ body {
 
 ul,
 li,
-/* h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-a, */
+
 .logo {
   font-family: 'Lato', 'Verdana', sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -43,11 +36,7 @@ a, */
   text-decoration: none;
 }
 
-/* .inner {
-  width: 800px;
-  position: relative;
-  margin: 0 auto;
-} */
+
 
 header {
   /* position: fixed; */
@@ -178,6 +167,7 @@ h4 {
   font-weight: 300;
   color: white;
   text-decoration: none;
+  margin-top: 10px;
 }
 
 @media all and (max-width: 500px) {
